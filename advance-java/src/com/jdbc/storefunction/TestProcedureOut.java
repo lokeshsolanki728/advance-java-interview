@@ -10,11 +10,12 @@ public class TestProcedureOut {
 	 * @param args
 	 * @throws Exception
 	 * 
-	 * mysql> delimiter &&
-       mysql> create procedure empOut(out c int)
-           -> begin
-           -> select salary into c from employee where id = 5;
-           -> end &&
+	 * DELIMITER &&
+         CREATE PROCEDURE empOut(OUT c INT)
+           BEGIN
+              SELECT salary INTO c FROM employee WHERE id = 5;
+           END &&
+       DELIMITER ;
 	 */
 	public static void main(String[] args) throws Exception {
 

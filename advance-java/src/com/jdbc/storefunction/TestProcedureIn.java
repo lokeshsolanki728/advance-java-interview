@@ -30,7 +30,6 @@ public class TestProcedureIn {
 		callStmt.execute();
 
 		ResultSet rs = callStmt.getResultSet();
-
 		while (rs.next()) {
 
 			System.out.println(rs.getInt(1));
