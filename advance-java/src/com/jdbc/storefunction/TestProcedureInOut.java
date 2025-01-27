@@ -11,7 +11,7 @@ public class TestProcedureInOut {
 	 * 
 	 *       -> DELIMITER &&
 	 *       -> CREATE PROCEDURE empInOut(IN id INT, OUT salary INT)
-	         -> BEGIN SELECT salary INTO salary FROM emp WHERE id = id;
+	         -> BEGIN SELECT salary INTO salary FROM emp WHERE id = i;
 	 *       -> END &&
 	 *       -> DELIMITER ;
 	 */

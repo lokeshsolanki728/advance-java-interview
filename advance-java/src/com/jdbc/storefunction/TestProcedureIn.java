@@ -1,4 +1,5 @@
 package com.jdbc.storefunction;
+
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,12 +11,9 @@ public class TestProcedureIn {
 	 * @param args
 	 * @throws Exception
 	 * 
-	 * mysql> delimiter &&
-       mysql> create procedure empIn(in c int)
-            > begin
-            > select * from employee where id = c;
-            > end &&
-
+	 *                   mysql> delimiter && mysql> create procedure empIn(in c int)
+	 *                   > begin > select * from employee where id = c; > end &&
+	 * 
 	 */
 	public static void main(String[] args) throws Exception {
 
@@ -35,7 +33,6 @@ public class TestProcedureIn {
 			System.out.println(rs.getInt(1));
 			System.out.println(rs.getString(2));
 			System.out.println(rs.getInt(3));
-
 		}
 
 	}
