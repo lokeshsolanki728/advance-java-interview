@@ -1,24 +1,6 @@
-2025-01-31 02:04:10 WARN  TestLog4j:13 - This is Warn...!!
-2025-01-31 02:04:10 ERROR TestLog4j:14 - This is Error...!!
-2025-01-31 02:04:10 FATAL TestLog4j:15 - This is Fatal...!!
-2025-01-31 02:04:10 ERROR TestLog4j:27 - Arithmetic Error
-java.lang.ArithmeticException: / by zero
-	at com.log4j.TestLog4j.main(TestLog4j.java:21)
-2025-01-31 02:04:55 WARN  TestLog4j:13 - This is Warn...!!
-2025-01-31 02:04:55 ERROR TestLog4j:14 - This is Error...!!
-2025-01-31 02:04:55 FATAL TestLog4j:15 - This is Fatal...!!
-2025-01-31 02:04:55 ERROR TestLog4j:27 - Arithmetic Error
-java.lang.ArithmeticException: / by zero
-	at com.log4j.TestLog4j.main(TestLog4j.java:21)
-2025-01-31 02:43:20 WARN  TestLog4j:13 - This is Warn...!!
-2025-01-31 02:43:20 ERROR TestLog4j:14 - This is Error...!!
-2025-01-31 02:43:20 FATAL TestLog4j:15 - This is Fatal...!!
-2025-01-31 02:43:20 ERROR TestLog4j:27 - Arithmetic Error
-java.lang.ArithmeticException: / by zero
-	at com.log4j.TestLog4j.main(TestLog4j.java:21)
-2025-01-31 11:22:18 WARN  TestLog4j:13 - This is Warn...!!
-2025-01-31 11:22:18 ERROR TestLog4j:14 - This is Error...!!
-2025-01-31 11:22:18 FATAL TestLog4j:15 - This is Fatal...!!
-2025-01-31 11:22:18 ERROR TestLog4j:27 - Arithmetic Error
+2025-02-04 12:34:17 WARN  TestLog4j:13 - This is Warn...!!
+2025-02-04 12:34:17 ERROR TestLog4j:14 - This is Error...!!
+2025-02-04 12:34:17 FATAL TestLog4j:15 - This is Fatal...!!
+2025-02-04 12:34:17 ERROR TestLog4j:27 - Arithmetic Error
 java.lang.ArithmeticException: / by zero
 	at com.log4j.TestLog4j.main(TestLog4j.java:21)

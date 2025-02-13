@@ -1,5 +1,6 @@
 package com.junit;
 
+import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import org.junit.Test;
@@ -15,13 +16,12 @@ public class TestFail {
 		bean.setSalary(6000);
 
 		UserModel.add(bean);
-		
-		bean = UserModel.findByPk(18);
+		bean = UserModel.findByPk(19);
 
 		if (bean == null) {
-
+			//assertTrue("ok", bean!=null);
 			fail("Record is not added...!!!");
-
+			
 		} else {
 			System.out.println("record is added..!!!");
 		}

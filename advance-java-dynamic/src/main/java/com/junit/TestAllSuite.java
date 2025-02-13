@@ -7,6 +7,7 @@ public class TestAllSuite {
 	public static void main(String[] args) {
 
 		TestSuite suite = new TestSuite("Test All");
+		
 		suite.addTestSuite(TestAssertNotNull.class);
 		suite.addTestSuite(TestAssertNull.class);
 

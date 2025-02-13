@@ -1,0 +1,6 @@
+2025-02-04 12:45:09 WARN  TestLog4j:13 - This is Warn...!!
+2025-02-04 12:45:09 ERROR TestLog4j:14 - This is Error...!!
+2025-02-04 12:45:09 FATAL TestLog4j:15 - This is Fatal...!!
+2025-02-04 12:45:09 ERROR TestLog4j:27 - Arithmetic Error
+java.lang.ArithmeticException: / by zero
+	at com.log4j.TestLog4j.main(TestLog4j.java:21)
